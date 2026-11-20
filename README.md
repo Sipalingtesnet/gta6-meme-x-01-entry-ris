@@ -42,13 +42,13 @@ node main.ts
 MAKEFUN_BOT_DIR="$PWD" MAKEFUN_OUTPUT_DIR="$PWD/out" node main.ts
 ```
 
-`POST.json` currently holds a placeholder URL; the real X post URL is filled in by the coordinator after the post is live.
+`POST.json` names the live X post: https://x.com/yayatjokowi/status/2123591386679366113
 
 ## Files
 
 - `meme.png` — the 1080×1080 meme image
 - `main.ts` — deterministic copy step (Node 22, stdlib only)
-- `POST.json` — X post URL (placeholder until the post is live)
+- `POST.json` — the live X post URL
 - `post-text.txt` — the exact text for the X post
 - `README.md` — this file
 
